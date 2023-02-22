@@ -60,14 +60,13 @@ body {
 .header {
   background: #FFFFFF;
   border-bottom: 1px solid #E7E9FC;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-bar {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
-
 }
 
 .header-navigation {
@@ -101,7 +100,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
 }
 
 .header-navigation-link:hover,
@@ -141,14 +139,14 @@ body {
 
 .hero {
   background: var(--dark-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 188px;
-  padding-bottom: 188px;
   row-gap: 48px;
 }
 
@@ -183,12 +181,12 @@ body {
 
 /* principles */
 
-.principles {}
-
-.principles-main {
+.principles {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.principles-main {}
 
 .principles-title {}
 
@@ -236,11 +234,10 @@ body {
 /* DIRECTION */
 
 .direction {
-}
-
-.direction-main {
   padding-bottom: 120px;
 }
+
+.direction-main {}
 
 .direction-title {
   font-weight: 700;
@@ -263,12 +260,11 @@ body {
 
 .team {
   background: var(--light-color);
-}
-
-.team-main{
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.team-main{}
 
 .team-title {
   font-weight: 700;
@@ -293,6 +289,10 @@ body {
   
 }
 
+.team-text-sub {
+margin: 32px 0 32px 0;
+}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -300,7 +300,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   text-align: center;
-  margin-top: 32px;
 }
 
 .team-text {
@@ -310,7 +309,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-align: center;
-  margin: 8px 0 32px 0;
+  margin-top: 8px;
 
 }
 
@@ -318,12 +317,11 @@ body {
 
 .footer {
   background: var(--dark-color);
-}
-
-.footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.footer-container {}
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -359,12 +357,12 @@ body {
 
 /* PORTFOLIO */
 
-.portfolio {}
-
-.portfolio-filter {
+.portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
+.portfolio-filter {}
 
 .portfolio-title {}
 
@@ -409,13 +407,18 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 border-color: var(--hover-color);
 }
 
+.portfolio-text-sub {
+  padding:  32px 0  32px 16px;
+  border: 1px solid var(--accent-color);
+  border-top: none;
+}
+
 .portfolio-sybtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-  margin: 32px 0 8px 16px;
 }
 
 .portfolio-text {
@@ -423,5 +426,5 @@ border-color: var(--hover-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  margin: 0 0 32px 16px;
+  margin-top: 8px;
 }
